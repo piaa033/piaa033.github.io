@@ -1,0 +1,132 @@
+body{ 
+    width: 100%;
+    height: 100%;
+    position: static;
+    background-color: white;
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    color: white;
+    text-align: center;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+@keyframes example{
+    0%   {background-color:#05183c; left:0px; top:0px;}
+    25%  {background-color:#06296b; left:200px; top:0px;}
+    50%  {background-color:#1a3c7d; left:200px; top:200px;}
+    75%  {background-color:#101217; left:0px; top:200px;}
+    100% {background-color:#0c0d0d; left:0px; top:0px;}
+  }
+
+h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+table{
+    text-align: left;
+    vertical-align: top;
+    width: 90%;
+    margin-left: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid;
+    border-color: cornsilk;
+}
+
+td{
+    padding: 5px;
+}
+
+ul{
+    text-align: left;
+}
+
+.imp{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+ .Barra li {
+    float: right;
+  }
+  
+ .Barra li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: width 2s, height 4s;
+  }
+
+  .Barra li a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .Imagen{
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  input{
+    transition: width 0.4s ease-in-out;
+    border: 2px solid white(255, 248, 248);
+    border-radius: 4px;
+  }
+
+  #Redes {
+    margin-right: 29%;
+  }
+
+  #Idioma{
+    float: left;
+  }
+
+.galeria{
+  width: 90%;
+}
+
+#gal{
+  width: 95%;
+  margin-left: 22px;
+  margin-right: 22px;
+  text-align: center;
+}
+
+input, textarea{
+  width: 49%;
+}
+div{
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 1px solid;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 25px;
+}
+
+#link{
+  color: white;
+}
+
