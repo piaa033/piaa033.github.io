@@ -13,7 +13,7 @@ body{
     font-family: "Oxygen", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 100%;
+    font-size: 170%;
 }
 
 @keyframes example{
@@ -130,3 +130,42 @@ div{
   color: white;
 }
 
+@media(width <= 500px){
+  body{
+    font-size: 100%;
+  }
+  .Barra{
+    font-size: 70%;
+    width: 100%;
+    display: inline-block;
+  }
+  #imgLogo{
+    width: 10%;
+    float: left;
+  }
+    
+  .Imagen{
+    width: 18px; /* Aumentado el tamaño en la media query */
+    height: 18px; /* Aumentado el tamaño en la media query */
+    float: none; /* Para que no flote a la izquierda */
+    display: inline-block; /* Para que se dispongan horizontalmente */
+    margin: 0 5px; /* Espaciado entre imágenes */
+
+  }
+
+div{
+  width: 90%;
+  margin: 5%;
+  padding: 1%;
+  
+}
+
+#gal{
+  width: 90%;
+  margin: 5%;
+}
+
+.galeria{
+  width: 100%;
+}
+}
